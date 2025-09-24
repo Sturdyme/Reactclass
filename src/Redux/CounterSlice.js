@@ -1,6 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import State from "../pages/state";
-
 
 const counterSlice = createSlice({
     name: "counter",
