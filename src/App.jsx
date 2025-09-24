@@ -1,8 +1,7 @@
  
 import './App.css'
-import Conditon from './components/Conditon'
 import Home from './pages/Home'
-import State from './pages/state'
+import State from './pages/State'
 import { Route, Routes } from 'react-router-dom'
 import About from './pages/About'
 import LoginPage from './pages/LoginPage'
