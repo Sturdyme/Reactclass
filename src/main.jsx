@@ -5,17 +5,17 @@ import { Provider } from 'react-redux';
 import store from './Redux/Store';
 import { UserProvider } from './context/userContext';
 import { StrictMode } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
  
     <Provider store={store}>
        <StrictMode>
-      <BrowserRouter>
+      <HashRouter>
         <UserProvider>
           <App />
         </UserProvider>
-      </BrowserRouter>
+      </HashRouter>
        </StrictMode>
     </Provider>
  
